@@ -15,7 +15,7 @@ style: style.css
 
 ## <small>Better</small> Performance
 
-- Server Side Rendered (Isomorphic)
+- _Server Side Rendered (Isomorphic)_
 - Progressive Loading
 - Minimal Data Requests
 - Minimal DOM Updates
@@ -29,23 +29,23 @@ style: style.css
 - Comprehensive Testing
 - Documentation
 - Continuous Integration & Deployment
-- NPM Packages
+- _NPM Packages_
 - ES6 Modules
 - Modlets
 - Custom HTML Elements
 - MVVM Architecture
-- Hot Module Swapping
+- _Hot Module Swapping_
 - Generators
 
 -- color dark-grey hero
 
 ## <small>Improved app</small> Usability
 
-- __Real Time__
+- _Real Time_
 - Two-way Routing
 - IE8+
-- __iOS, Android__
-- __Desktop__
+- _iOS, Android_
+- _Desktop_
 
 
 -- centered
@@ -136,19 +136,15 @@ socket.on('messages removed',
 
 #### iOS/Android (Cordova)
 
-```
-donejs add cordova
+> donejs add cordova
 
-donejs build cordova
-```
+> donejs build cordova
 
 #### Desktop (nw.js)
 
-```
-donejs add nw
+> donejs add nw
 
-donejs build nw
-```
+> donejs build nw
 
 -- centered
 
@@ -165,7 +161,7 @@ donejs build nw
 - It's our business model
  - Building amazing applications for our clients<br> using our tools!
 - Enterprise Clients
- - Want long term stability and reliablity
+ - Want long term stability and reliability
 - Hard work and persistence
 
 
@@ -173,10 +169,10 @@ donejs build nw
 
 ## Real Talk: Its Not Been Easy
 
-- We suck at explaining our tools / documentation is hard
+- Documentation is hard
  - Empathizing with our users has been a weak point
  - Explaining _why_ not just _how_
-- We don't know how to be cool
+- Being cool is hard
  - We don't look _cool_
  - We have a small team and small budget for marketing
 - We have to market to our clients, which is different than marketing to developers

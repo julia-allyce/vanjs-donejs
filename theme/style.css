@@ -196,13 +196,18 @@ pre {
   margin: 0 auto;
   display: block;
 }
-.slide.color ul ul { 
+.slide.color ul ul {
   margin: 0;
   margin-left: 10px;
 }
 
 .slide.color.wide-list ul {
   width: 80%;
+}
+
+.slide.color em {
+    font-style: normal;
+    border-bottom: 1px dashed;
 }
 
 .slide.color small {
@@ -225,4 +230,11 @@ pre {
 
 ul {
   list-style: square;
+}
+
+blockquote {
+  font-family: monospace;
+  border-left: 5px solid #000;
+  margin: 1.5em;
+  padding-left: 1em;
 }

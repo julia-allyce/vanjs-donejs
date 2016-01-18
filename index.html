@@ -555,13 +555,18 @@ pre {
   margin: 0 auto;
   display: block;
 }
-.slide.color ul ul { 
+.slide.color ul ul {
   margin: 0;
   margin-left: 10px;
 }
 
 .slide.color.wide-list ul {
   width: 80%;
+}
+
+.slide.color em {
+    font-style: normal;
+    border-bottom: 1px dashed;
 }
 
 .slide.color small {
@@ -584,6 +589,13 @@ pre {
 
 ul {
   list-style: square;
+}
+
+blockquote {
+  font-family: monospace;
+  border-left: 5px solid #000;
+  margin: 1.5em;
+  padding-left: 1em;
 }
 
 img[alt=modlet-before],
@@ -620,7 +632,7 @@ h6 {
   <div class="slide hidden  color light-grey hero" id="slide-2">
     <section class="slide-content"><h2 id="-small-better-small-performance"><small>Better</small> Performance</h2>
 <ul>
-<li>Server Side Rendered (Isomorphic)</li>
+<li><em>Server Side Rendered (Isomorphic)</em></li>
 <li>Progressive Loading</li>
 <li>Minimal Data Requests</li>
 <li>Minimal DOM Updates</li>
@@ -635,12 +647,12 @@ h6 {
 <li>Comprehensive Testing</li>
 <li>Documentation</li>
 <li>Continuous Integration &amp; Deployment</li>
-<li>NPM Packages</li>
+<li><em>NPM Packages</em></li>
 <li>ES6 Modules</li>
 <li>Modlets</li>
 <li>Custom HTML Elements</li>
 <li>MVVM Architecture</li>
-<li>Hot Module Swapping</li>
+<li><em>Hot Module Swapping</em></li>
 <li>Generators</li>
 </ul>
 </section>
@@ -648,11 +660,11 @@ h6 {
   <div class="slide hidden  color dark-grey hero" id="slide-4">
     <section class="slide-content"><h2 id="-small-improved-app-small-usability"><small>Improved app</small> Usability</h2>
 <ul>
-<li><strong>Real Time</strong></li>
+<li><em>Real Time</em></li>
 <li>Two-way Routing</li>
 <li>IE8+</li>
-<li><strong>iOS, Android</strong></li>
-<li><strong>Desktop</strong></li>
+<li><em>iOS, Android</em></li>
+<li><em>Desktop</em></li>
 </ul>
 </section>
   </div>
@@ -737,13 +749,15 @@ socket.on(<span class="hljs-string">'messages removed'</span>,
     <section class="slide-content"><h2 id="desktop-and-mobile-builds">Desktop and Mobile Builds</h2>
 <p><img src="img/desktop-mobile.gif" style="float: right; margin-top: 1em;margin-right: 5em; width: 45%;" alt="donejs init" /></p>
 <h4 id="ios-android-cordova-">iOS/Android (Cordova)</h4>
-<pre><code>donejs add cordova
-
-donejs build cordova</code></pre>
+<blockquote>
+<p>donejs add cordova</p>
+<p>donejs build cordova</p>
+</blockquote>
 <h4 id="desktop-nw-js-">Desktop (nw.js)</h4>
-<pre><code>donejs add nw
-
-donejs build nw</code></pre>
+<blockquote>
+<p>donejs add nw</p>
+<p>donejs build nw</p>
+</blockquote>
 </section>
   </div>
   <div class="slide hidden  centered" id="slide-12">
@@ -760,7 +774,7 @@ donejs build nw</code></pre>
 </ul>
 </li>
 <li>Enterprise Clients<ul>
-<li>Want long term stability and reliablity</li>
+<li>Want long term stability and reliability</li>
 </ul>
 </li>
 <li>Hard work and persistence</li>
@@ -770,12 +784,12 @@ donejs build nw</code></pre>
   <div class="slide hidden  hero color dark-grey wide-list" id="slide-14">
     <section class="slide-content"><h2 id="real-talk-its-not-been-easy">Real Talk: Its Not Been Easy</h2>
 <ul>
-<li>We suck at explaining our tools / documentation is hard<ul>
+<li>Documentation is hard<ul>
 <li>Empathizing with our users has been a weak point</li>
 <li>Explaining <em>why</em> not just <em>how</em></li>
 </ul>
 </li>
-<li>We don&#39;t know how to be cool<ul>
+<li>Being cool is hard<ul>
 <li>We don&#39;t look <em>cool</em></li>
 <li>We have a small team and small budget for marketing</li>
 </ul>
