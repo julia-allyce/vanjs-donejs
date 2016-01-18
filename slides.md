@@ -5,7 +5,7 @@ controls: false
 logo: theme/logo.png
 style: style.css
 
--- centered
+-- centered hero
 
 <img src="img/donejs-logo-white.svg" style="width: 80%; margin-top: 3em;" alt="Donejs">
 
@@ -34,7 +34,7 @@ style: style.css
 
 <img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline">
 
---
+-- color light-grey
 
 ## Performance
 
@@ -45,7 +45,7 @@ style: style.css
 - Worker Rendering
 - CDN Deploys
 
---
+-- color blue
 
 ## Maintainability
 
@@ -59,7 +59,7 @@ style: style.css
 - MVVM
 - Generators
 
---
+-- color dark-grey
 
 ## Usability
 

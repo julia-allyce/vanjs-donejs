@@ -548,6 +548,35 @@ h6 {
   width: 50%;
   text-align: center;
 }
+
+.slide.hero {
+  background-image: url(/img/background.jpg);
+  background-size: contain;
+}
+
+.slide.hero .content {
+  background-color: rgba(100,100,100, 0.8);
+}
+
+.slide.color {
+  color:#fff;
+}
+.slide.color h1, .slide.color h2, .slide.color h3,
+.slide.hero h1, .slide.hero h2, .slide.hero h3 
+{
+  color:#fff;
+}
+.slide.light-grey {
+  background-color: rgba(93, 96, 97, 1);
+}
+
+.slide.blue {
+  background-color: rgba(5, 152, 196, 1);
+}
+
+.slide.dark-grey {
+  background-color: rgba(33, 38, 40, 1);
+}
   </style>
 </head>
 <body>
@@ -555,7 +584,7 @@ h6 {
     <div class="progress-bar"></div>
   </div>
 
-  <div class="slide  centered" id="slide-1">
+  <div class="slide  centered hero" id="slide-1">
     <section class="slide-content"><p><img src="img/donejs-logo-white.svg" style="width: 80%; margin-top: 3em;" alt="Donejs"></p>
 <h1 id="vanjs-january-18-2016">VanJS, January 18, 2016</h1>
 </section>
@@ -585,7 +614,7 @@ h6 {
 <p><img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline"></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-4">
+  <div class="slide hidden  color light-grey" id="slide-4">
     <section class="slide-content"><h2 id="performance">Performance</h2>
 <ul>
 <li><strong>Server Side Rendering</strong></li>
@@ -597,7 +626,7 @@ h6 {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-5">
+  <div class="slide hidden  color blue" id="slide-5">
     <section class="slide-content"><h2 id="maintainability">Maintainability</h2>
 <ul>
 <li>Comprehensive Testing</li>
@@ -612,7 +641,7 @@ h6 {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-6">
+  <div class="slide hidden  color dark-grey" id="slide-6">
     <section class="slide-content"><h2 id="usability">Usability</h2>
 <ul>
 <li><strong>Real Time</strong></li>

@@ -22,3 +22,32 @@ h6 {
   width: 50%;
   text-align: center;
 }
+
+.slide.hero {
+  background-image: url(/img/background.jpg);
+  background-size: contain;
+}
+
+.slide.hero .content {
+  background-color: rgba(100,100,100, 0.8);
+}
+
+.slide.color {
+  color:#fff;
+}
+.slide.color h1, .slide.color h2, .slide.color h3,
+.slide.hero h1, .slide.hero h2, .slide.hero h3 
+{
+  color:#fff;
+}
+.slide.light-grey {
+  background-color: rgba(93, 96, 97, 1);
+}
+
+.slide.blue {
+  background-color: rgba(5, 152, 196, 1);
+}
+
+.slide.dark-grey {
+  background-color: rgba(33, 38, 40, 1);
+}
