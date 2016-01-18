@@ -158,7 +158,7 @@ donejs build nw
 
 <small>Source: <em>[Longevity (or Lack Thereof) in JavaScript Frameworks](http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/)</em></small>
 
--- hero color blue
+-- hero color blue wide-list
 
 ## How Do We Do It?
 
