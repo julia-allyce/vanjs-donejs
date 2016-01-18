@@ -31,30 +31,6 @@ style: style.css
 ## With a History
 
 <img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline">
-
--- centered
-## Why is History Important?
-
-<img src="img/release-history.png" style="width: 70%;" alt="Framework Timeline">
-
-<small>Source: <em>[Longevity (or Lack Thereof) in JavaScript Frameworks](http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/)</em></small>
-
---
-## How Do We Do It?
-
-- It's our business model
-- Enterprise Clients
-- Hard work and persistence
-
---
-## Real Talk: Its Not Been Easy
-
-- We suck at explaining our tools
-- We don't know how to be cool
-- OS development is hard, emotionally and mentally
-
--- centered
-<img src="img/donejs-logo-white.svg" style="width: 80%; margin-top: 3em;" alt="Donejs">
 --
 
 ## Performance
@@ -219,6 +195,26 @@ route('/:page', { page: 'home' });
   </bit-tabs>
 </template>
 ```
+-- centered
+## Why is History Important?
+
+<img src="img/release-history.png" style="width: 70%;" alt="Framework Timeline">
+
+<small>Source: <em>[Longevity (or Lack Thereof) in JavaScript Frameworks](http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/)</em></small>
+
+--
+## How Do We Do It?
+
+- It's our business model
+- Enterprise Clients
+- Hard work and persistence
+
+--
+## Real Talk: Its Not Been Easy
+
+- We suck at explaining our tools
+- We don't know how to be cool
+- OS development is hard, emotionally and mentally
 
 -- centered
 
