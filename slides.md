@@ -11,29 +11,6 @@ style: style.css
 
 # VanJS, January 18, 2016
 
---
-
-## So what is it?
-
-- Open Source JavaScript framework (MIT)
-- Backend services agnostic
-- Windows, Linux, OSX
-- Comes with
-  - [StealJS](http://stealjs.com) - ES6, CJS, and AMD module loader and builder
-  - [CanJS](http://canjs.com) - Custom elements and Model-View-ViewModel utilities
-  - [jQuery](http://jquery.com) - DOM helpers
-  - [FuncUnit](http://funcunit.com) - Functional tests
-  - [Testee](https://github.com/bitovi/testee) - QUnit, Mocha and Jasmine Test runner
-  - [DocumentJS](http://documentjs.com) - Documentation
-  - [can-ssr](http://github.com/canjs/ssr) - Server-Side Rendering Utilities for CanJS
-  - [can-connect](https://github.com/canjs/can-connect) - Assemble real-time, high performance, restful data connections.
-
--- centered
-
-## With a History
-
-<img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline">
-
 -- color light-grey hero
 
 ## <small>Better</small> Performance
@@ -69,6 +46,28 @@ style: style.css
 - IE8+
 - __iOS, Android__
 - __Desktop__
+
+
+-- centered
+
+## With a History
+
+<img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline">
+
+--
+
+- Open Source JavaScript framework (MIT)
+- Backend services agnostic
+- Windows, Linux, OSX
+- Comes with
+  - [StealJS](http://stealjs.com) - ES6, CJS, and AMD module loader and builder
+  - [CanJS](http://canjs.com) - Custom elements and Model-View-ViewModel utilities
+  - [jQuery](http://jquery.com) - DOM helpers
+  - [FuncUnit](http://funcunit.com) - Functional tests
+  - [Testee](https://github.com/bitovi/testee) - QUnit, Mocha and Jasmine Test runner
+  - [DocumentJS](http://documentjs.com) - Documentation
+  - [can-ssr](http://github.com/canjs/ssr) - Server-Side Rendering Utilities for CanJS
+  - [can-connect](https://github.com/canjs/can-connect) - Assemble real-time, high performance, restful data connections.
 
 --
 
@@ -129,7 +128,7 @@ socket.on('messages removed',
   message => messageConnection.destroyInstance(message));
 ```
 
--- hero color light-grey
+--
 
 ## Desktop and Mobile Builds
 
@@ -151,7 +150,7 @@ donejs add nw
 donejs build nw
 ```
 
--- centered hero color light-grey
+-- centered
 
 ## Why is History Important?
 
@@ -175,7 +174,7 @@ donejs build nw
 - We don't know how to be cool
 - OS development is hard, emotionally and mentally
 
--- centered hero color light-grey
+-- centered
 
 ## Stuck in the chasm?
 
