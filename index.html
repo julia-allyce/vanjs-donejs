@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title>DoneJS - Get your app done</title>
+  <title>DoneJS - Your app. Done.</title>
   <link href="theme/lato.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="theme/font-awesome.css">
   <style type="text/css">
@@ -588,7 +588,7 @@ h6 {
   <div class="slide hidden" id="slide-4">
     <section class="slide-content"><h2 id="performance">Performance</h2>
 <ul>
-<li>Server Side Rendering</li>
+<li><strong>Server Side Rendering</strong></li>
 <li>Progressive Loading</li>
 <li>Data Caching</li>
 <li>Minimal DOM Updates</li>
@@ -601,10 +601,10 @@ h6 {
     <section class="slide-content"><h2 id="maintainability">Maintainability</h2>
 <ul>
 <li>Comprehensive Testing</li>
-<li>Hot Module Swapping</li>
+<li><strong>Hot Module Swapping</strong></li>
 <li>CI &amp; CD</li>
 <li>ES6 Modules</li>
-<li>NPM Packages</li>
+<li><strong>NPM Packages</strong></li>
 <li>Modlets</li>
 <li>Custom Elements</li>
 <li>MVVM</li>
@@ -615,11 +615,11 @@ h6 {
   <div class="slide hidden" id="slide-6">
     <section class="slide-content"><h2 id="usability">Usability</h2>
 <ul>
-<li>Real Time</li>
+<li><strong>Real Time</strong></li>
 <li>Two-way Routing</li>
 <li>IE8+</li>
-<li>iOS, Android</li>
-<li>Desktop</li>
+<li><strong>iOS, Android</strong></li>
+<li><strong>Desktop</strong></li>
 </ul>
 </section>
   </div>
@@ -660,89 +660,43 @@ h6 {
 </section>
   </div>
   <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><h2 id="components">Components</h2>
+    <section class="slide-content"><h2 id="real-time">Real-time</h2>
 <blockquote>
-<p>donejs add component home.component chat-home</p>
+<p>npm install steal-socket.io --save</p>
 </blockquote>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">can-component</span> <span class="hljs-attr">tag</span>=<span class="hljs-string">"chat-home"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"less"</span>&gt;</span><span class="css">
-    <span class="hljs-selector-tag">display</span>: <span class="hljs-selector-tag">block</span>;
-    <span class="hljs-selector-tag">h1</span><span class="hljs-selector-class">.page-header</span> { <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0</span>; }
-  </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-header text-center"</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"http://donejs.com/static/img/donejs-logo-white.svg"</span>
-           <span class="hljs-attr">alt</span>=<span class="hljs-string">"DoneJS logo"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width: 100%;"</span> /&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>Chat
-    <span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> io <span class="hljs-keyword">from</span> <span class="hljs-string">'steal-socket.io'</span>;
 
-    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"{{routeUrl page='chat' }}"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary btn-block btn-lg"</span>&gt;</span>
-      Start chat
-    <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">can-component</span>&gt;</span></code></pre>
+<span class="hljs-keyword">const</span> socket = io(<span class="hljs-string">'http://chat.donejs.com'</span>);
+
+socket.on(<span class="hljs-string">'messages created'</span>,
+  message =&gt; messageConnection.createInstance(message));
+socket.on(<span class="hljs-string">'messages updated'</span>,
+  message =&gt; messageConnection.updateInstance(message));
+socket.on(<span class="hljs-string">'messages removed'</span>,
+  message =&gt; messageConnection.destroyInstance(message));</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><h2 id="routing">Routing</h2>
+    <section class="slide-content"><h2 id="desktop-and-mobile-builds">Desktop and mobile builds</h2>
+<h4 id="ios-android-cordova-">iOS/Android (Cordova)</h4>
 <blockquote>
-<p>donejs add component messages chat-messages</p>
+<p>donejs add cordova</p>
+<p>donejs build cordova</p>
 </blockquote>
-<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- messages/messages.stache --&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"{{routeUrl page='home'}}"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{{message}}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre>
-<p>Then in <code>app.js</code>:</p>
-<pre><code class="lang-javascript">route(<span class="hljs-string">'/:page'</span>, { page: <span class="hljs-string">'home'</span> });</code></pre>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-12">
-    <section class="slide-content"><h2 id="switching-between-pages">Switching between pages</h2>
-<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- index.stache --&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-sm-8 col-sm-offset-2"</span>&gt;</span>
-      {{#eq page 'chat'}}
-        <span class="hljs-tag">&lt;<span class="hljs-name">can-import</span> <span class="hljs-attr">from</span>=<span class="hljs-string">"donejs-chat/messages/"</span>&gt;</span>
-          {{#if isPending}}Loading...{{else}}<span class="hljs-tag">&lt;<span class="hljs-name">chat-messages</span>/&gt;</span>{{/if}}
-        <span class="hljs-tag">&lt;/<span class="hljs-name">can-import</span>&gt;</span>
-      {{else}}
-        <span class="hljs-tag">&lt;<span class="hljs-name">can-import</span> <span class="hljs-attr">from</span>=<span class="hljs-string">"donejs-chat/home.component!"</span>&gt;</span>
-          {{#if isPending}}Loading...{{else}}<span class="hljs-tag">&lt;<span class="hljs-name">chat-home</span>/&gt;</span>{{/if}}
-        <span class="hljs-tag">&lt;/<span class="hljs-name">can-import</span>&gt;</span>
-      {{/eq}}
-    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-13">
-    <section class="slide-content"><h2 id="finishing-the-homepage">Finishing the homepage</h2>
+<h4 id="desktop-nw-js-">Desktop (nw.js)</h4>
 <blockquote>
-<p>npm install bit-tabs --save</p>
+<p>donejs add nw</p>
+<p>donejs build nw</p>
 </blockquote>
-<pre><code class="lang-html"><span class="hljs-comment">&lt;!-- home.component --&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
-  ...
-  <span class="hljs-tag">&lt;<span class="hljs-name">can-import</span> <span class="hljs-attr">from</span>=<span class="hljs-string">"bit-tabs/unstyled"</span> /&gt;</span>
-
-  <span class="hljs-tag">&lt;<span class="hljs-name">bit-tabs</span> <span class="hljs-attr">tabs-class</span>=<span class="hljs-string">"nav nav-tabs"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">bit-panel</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"CanJS"</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>CanJS provides the MV*<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">bit-panel</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">bit-panel</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"StealJS"</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>StealJS provides the infrastructure.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-    <span class="hljs-tag">&lt;/<span class="hljs-name">bit-panel</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">bit-tabs</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></code></pre>
 </section>
   </div>
-  <div class="slide hidden  centered" id="slide-14">
+  <div class="slide hidden  centered" id="slide-12">
     <section class="slide-content"><h2 id="why-is-history-important-">Why is History Important?</h2>
 <p><img src="img/release-history.png" style="width: 70%;" alt="Framework Timeline"></p>
 <p><small>Source: <em><a href="http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/">Longevity (or Lack Thereof) in JavaScript Frameworks</a></em></small></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-15">
+  <div class="slide hidden" id="slide-13">
     <section class="slide-content"><h2 id="how-do-we-do-it-">How Do We Do It?</h2>
 <ul>
 <li>It&#39;s our business model</li>
@@ -751,7 +705,7 @@ h6 {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-16">
+  <div class="slide hidden" id="slide-14">
     <section class="slide-content"><h2 id="real-talk-its-not-been-easy">Real Talk: Its Not Been Easy</h2>
 <ul>
 <li>We suck at explaining our tools</li>
@@ -760,7 +714,7 @@ h6 {
 </ul>
 </section>
   </div>
-  <div class="slide hidden  centered" id="slide-17">
+  <div class="slide hidden  centered" id="slide-15">
     <section class="slide-content"><h2 id="you-re-still-here-we-still-have-time-">You&#39;re still here? We still have time?</h2>
 <h4 id="production-builds">Production builds</h4>
 <h4 id="desktop-and-mobile-apps">Desktop and mobile apps</h4>
@@ -770,7 +724,7 @@ h6 {
 <h4 id="sam-again">Sam again</h4>
 </section>
   </div>
-  <div class="slide hidden  presenter" id="slide-18">
+  <div class="slide hidden  presenter" id="slide-16">
     <section class="slide-content"><div class="bio">
 <img src="http://gravatar.com/avatar/a14850281f19396480bdba4aab2d52ef?s=200" alt="David Luecke">
 
