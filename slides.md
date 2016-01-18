@@ -163,16 +163,23 @@ donejs build nw
 ## How Do We Do It?
 
 - It's our business model
+ - Building amazing applications for our clients<br> using our tools!
 - Enterprise Clients
+ - Want long term stability and reliablity
 - Hard work and persistence
+
 
 -- hero color dark-grey
 
 ## Real Talk: Its Not Been Easy
 
-- We suck at explaining our tools
+- We suck at explaining our tools / documentation is hard
+ - Empathizing with our users has been a weak point
+ - Explaining _why_ not just _how_
 - We don't know how to be cool
-- OS development is hard, emotionally and mentally
+ - We don't look _cool_
+ - We have a small team and small budget for marketing
+- We have to market to our clients, which is different than marketing to developers
 
 -- centered
 
