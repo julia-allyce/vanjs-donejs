@@ -170,16 +170,33 @@ socket.on('messages removed',
 
 -- centered
 
+## Stuck in the chasm?
+
+<img alt="Chrossing the chasm" src="img/chasm.svg" style="width:90%;">
+
+[Pete Hunt @ TxJS 2015](https://www.youtube.com/watch?v=A0Kj49z6WdM)
+
+-- centered
+
 ## You're still here? We still have time?
 
 #### Production builds
-#### Desktop and mobile apps
 #### Testing
 #### CDN deploy
-#### donejs-react
-#### Sam again
+#### Data caching
 
 -- presenter
+
+<div class="bio">
+
+![Julia Allyce](http://gravatar.com/avatar/51d3dd361a66507e9f4e8232e69b7d99?s=200)
+
+<h2>Julia Allyce</h2>
+<ul>
+  <li>[<i class="fa fa-github"></i> julia-allyce](https://github.com/julia-allyce)</li>
+  <li>[<i class="fa fa-twitter"></i> @julia_allyce](http://twitter.com/julia_allyce)</li>
+</ul>
+</div>
 
 <div class="bio">
 ![David Luecke](http://gravatar.com/avatar/a14850281f19396480bdba4aab2d52ef?s=200)
@@ -190,14 +207,4 @@ socket.on('messages removed',
   <li>[<i class="fa fa-twitter"></i> @daffl](http://twitter.com/daffl)</li>
 </ul>
 
-</div>
-<div class="bio">
-
-![Julia Allyce](http://gravatar.com/avatar/51d3dd361a66507e9f4e8232e69b7d99?s=200)
-
-<h2>Julia Allyce</h2>
-<ul>
-  <li>[<i class="fa fa-github"></i> julia-allyce](https://github.com/julia-allyce)</li>
-  <li>[<i class="fa fa-twitter"></i> @julia_allyce](http://twitter.com/julia_allyce)</li>
-</ul>
 </div>
