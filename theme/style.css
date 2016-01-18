@@ -188,6 +188,15 @@ pre {
   margin: 0 auto;
   display: block;
 }
+.slide.color ul ul { 
+  margin: 0;
+  margin-left: 10px;
+}
+
+.slide.color.wide-list ul {
+  width: 80%;
+}
+
 .slide.color small {
   display: block;
   font-weight: normal;

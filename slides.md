@@ -169,7 +169,7 @@ donejs build nw
 - Hard work and persistence
 
 
--- hero color dark-grey
+-- hero color dark-grey wide-list
 
 ## Real Talk: Its Not Been Easy
 
