@@ -539,7 +539,19 @@ pre {
 .slide.color h1, .slide.color h2, .slide.color h3,
 .slide.hero h1, .slide.hero h2, .slide.hero h3
 {
+  font-weight: bold;
   color:#fff;
+}
+.slide.color ul {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+.slide.color small {
+  display: block;
+  font-weight: normal;
+  font-size: 60%;
+  text-transform: uppercase;
 }
 .slide.light-grey .slide-content {
   background-color: rgba(93, 96, 97, 0.8);
@@ -551,6 +563,10 @@ pre {
 
 .slide.dark-grey .slide-content {
   background-color: rgba(33, 38, 40, 0.8);
+}
+
+ul {
+  list-style: square;
 }
 
 img[alt=modlet-before],
@@ -615,7 +631,7 @@ h6 {
 <p><img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline"></p>
 </section>
   </div>
-  <div class="slide hidden  color light-grey hero centered" id="slide-4">
+  <div class="slide hidden  color light-grey hero" id="slide-4">
     <section class="slide-content"><h2 id="-small-better-small-performance"><small>Better</small> Performance</h2>
 <ul>
 <li>Server Side Rendered (Isomorphic)</li>

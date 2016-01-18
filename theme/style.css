@@ -180,7 +180,19 @@ pre {
 .slide.color h1, .slide.color h2, .slide.color h3,
 .slide.hero h1, .slide.hero h2, .slide.hero h3
 {
+  font-weight: bold;
   color:#fff;
+}
+.slide.color ul {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+.slide.color small {
+  display: block;
+  font-weight: normal;
+  font-size: 60%;
+  text-transform: uppercase;
 }
 .slide.light-grey .slide-content {
   background-color: rgba(93, 96, 97, 0.8);
@@ -192,4 +204,8 @@ pre {
 
 .slide.dark-grey .slide-content {
   background-color: rgba(33, 38, 40, 0.8);
+}
+
+ul {
+  list-style: square;
 }

@@ -34,7 +34,7 @@ style: style.css
 
 <img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline">
 
--- color light-grey hero centered
+-- color light-grey hero
 
 ## <small>Better</small> Performance
 
