@@ -72,7 +72,7 @@ style: style.css
 
 --
 
-## Getting started
+## Getting Started
 
 <img src="img/donejs-init.png" style="float: right; margin-right: 5em; width: 35%;" alt="donejs init" />
 
@@ -82,7 +82,7 @@ style: style.css
 
 --
 
-## NPM and hot-module swapping
+## NPM and Hot-Module Swapping
 
 > npm install bootstrap --save
 
@@ -129,31 +129,37 @@ socket.on('messages removed',
   message => messageConnection.destroyInstance(message));
 ```
 
---
+-- hero color light-grey
 
-## Desktop and mobile builds
+## Desktop and Mobile Builds
+
+<img src="img/desktop-mobile.gif" style="float: right; margin-top: 1em;margin-right: 5em; width: 45%;" alt="donejs init" />
 
 #### iOS/Android (Cordova)
 
-> donejs add cordova
+```
+donejs add cordova
 
-> donejs build cordova
+donejs build cordova
+```
 
 #### Desktop (nw.js)
 
-> donejs add nw
+```
+donejs add nw
 
-> donejs build nw
+donejs build nw
+```
 
--- centered
+-- centered hero color light-grey
 
 ## Why is History Important?
 
-<img src="img/release-history.png" style="width: 70%;" alt="Framework Timeline">
+<img src="img/release-history.jpg" style="width: 70%;" alt="Release History">
 
 <small>Source: <em>[Longevity (or Lack Thereof) in JavaScript Frameworks](http://blog.bitovi.com/longevity-or-lack-thereof-in-javascript-frameworks/)</em></small>
 
---
+-- hero color blue
 
 ## How Do We Do It?
 
@@ -161,7 +167,7 @@ socket.on('messages removed',
 - Enterprise Clients
 - Hard work and persistence
 
---
+-- hero color dark-grey
 
 ## Real Talk: Its Not Been Easy
 
@@ -169,7 +175,7 @@ socket.on('messages removed',
 - We don't know how to be cool
 - OS development is hard, emotionally and mentally
 
--- centered
+-- centered hero color light-grey
 
 ## Stuck in the chasm?
 
@@ -177,7 +183,7 @@ socket.on('messages removed',
 
 [Pete Hunt @ TxJS 2015](https://www.youtube.com/watch?v=A0Kj49z6WdM)
 
--- centered
+-- centered hero color blue
 
 ## You're still here? We still have time?
 
@@ -186,7 +192,7 @@ socket.on('messages removed',
 #### CDN deploy
 #### Data caching
 
--- presenter
+-- presenter hero color dark-grey
 
 <div class="bio">
 
