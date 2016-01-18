@@ -180,8 +180,8 @@ socket.on('messages removed',
 
 ## You're still here? We still have time?
 
-#### Production builds
 #### Testing
+#### Production builds
 #### CDN deploy
 #### Data caching
 
