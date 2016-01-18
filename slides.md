@@ -34,34 +34,35 @@ style: style.css
 
 <img src="img/framework-timeline.png" style="width: 70%;" alt="Framework Timeline">
 
--- color light-grey
+-- color light-grey hero centered
 
-## Performance
+## <small>Better</small> Performance
 
-- __Server Side Rendering__
+- Server Side Rendered (Isomorphic)
 - Progressive Loading
-- Data Caching
+- Minimal Data Requests
 - Minimal DOM Updates
-- Worker Rendering
-- CDN Deploys
+- Worker Thread Rendering
+- Deploy to a CDN
 
--- color blue
+-- color blue hero
 
-## Maintainability
+## <small>More</small> Maintainable
 
 - Comprehensive Testing
-- __Hot Module Swapping__
-- CI & CD
+- Documentation
+- Continuous Integration & Deployment
+- NPM Packages
 - ES6 Modules
-- __NPM Packages__
 - Modlets
-- Custom Elements
-- MVVM
+- Custom HTML Elements
+- MVVM Architecture
+- Hot Module Swapping
 - Generators
 
--- color dark-grey
+-- color dark-grey hero
 
-## Usability
+## <small>Improved app</small> Usability
 
 - __Real Time__
 - Two-way Routing

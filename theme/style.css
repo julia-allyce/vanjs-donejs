@@ -164,3 +164,32 @@ pre {
 .slide {
   background-color: #FFFFFF;
 }
+
+.slide.hero {
+  background-image: url(img/background.jpg);
+  background-size: contain;
+}
+
+.slide.hero .slide-content {
+  background-color: rgba(100,100,100, 0.8);
+}
+
+.slide.color {
+  color:#fff;
+}
+.slide.color h1, .slide.color h2, .slide.color h3,
+.slide.hero h1, .slide.hero h2, .slide.hero h3
+{
+  color:#fff;
+}
+.slide.light-grey .slide-content {
+  background-color: rgba(93, 96, 97, 0.8);
+}
+
+.slide.blue .slide-content {
+  background-color: rgba(5, 152, 196, 0.8);
+}
+
+.slide.dark-grey .slide-content {
+  background-color: rgba(33, 38, 40, 0.8);
+}
