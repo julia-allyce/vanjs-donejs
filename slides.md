@@ -198,8 +198,8 @@ donejs build nw
 #### CDN deploy
 #### Data caching
 
--- presenter hero color dark-grey
-
+-- presenter hero color dark-grey wide-list
+<div>
 <div class="bio">
 
 ![Julia Allyce](http://gravatar.com/avatar/51d3dd361a66507e9f4e8232e69b7d99?s=200)
@@ -219,5 +219,7 @@ donejs build nw
   <li>[<i class="fa fa-github"></i> daffl](https://github.com/daffl)</li>
   <li>[<i class="fa fa-twitter"></i> @daffl](http://twitter.com/daffl)</li>
 </ul>
-
 </div>
+</div>
+
+<h2 style="margin-top: 1em;">[http://julia-allyce.github.io/vanjs-donejs/](http://julia-allyce.github.io/vanjs-donejs/)</h2>
