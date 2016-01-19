@@ -11,6 +11,13 @@ style: style.css
 
 # VanJS, January 18, 2016
 
+-- color dark-grey hero centered
+<div style="margin-top:3em">
+<h1>Performance</h1>
+<h1>Maintainability</h1>
+<h1>Usability</h1>
+</div>
+
 -- color light-grey hero
 
 ## <small>Better</small> Performance
