@@ -202,6 +202,7 @@ socket.on('messages removed',
 #### Data caching
 
 -- presenter hero color dark-grey wide-list
+## The End.
 <div>
 <div class="bio">
 
