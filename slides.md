@@ -179,27 +179,18 @@ socket.on('messages removed',
 - Documentation is hard
  - Empathizing with our users has been a weak point
  - Explaining _why_ not just _how_
-- Being cool is hard
+- Being old and cool is hard
  - We don't look _cool_
  - We have a small team and small budget for marketing
 - We have to market to our clients, which is different than marketing to developers
 
--- centered
+-- hero color blue wide-list
 
-## Stuck in the Chasm?
+## Rallying the JS Community
 
-<img alt="Chrossing the chasm" src="img/chasm.svg" style="width:90%;">
+- Selling the whole pie is harder than just a slice
+- Getting the attention of passionate early adopters is essential
 
-[Pete Hunt @ TxJS 2015](https://www.youtube.com/watch?v=A0Kj49z6WdM)
-
--- centered hero color blue
-
-## You're still here? We still have time?
-
-#### Testing
-#### Production builds
-#### CDN deploy
-#### Data caching
 
 -- presenter hero color dark-grey wide-list
 ## The End.
