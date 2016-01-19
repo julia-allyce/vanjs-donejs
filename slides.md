@@ -46,7 +46,7 @@ style: style.css
 
 -- color dark-grey hero
 
-## <small>Improved app</small> Usability
+## <small>Improved App</small> Usability
 
 - _Real Time_
 - Two-way Routing
@@ -112,7 +112,7 @@ style: style.css
 
 -- centered
 
-## Server side Rendering
+## Server Side Rendering
 
 <img src="img/ssr.png" style="width: 80%;" alt="donejs init" />
 
@@ -186,7 +186,7 @@ socket.on('messages removed',
 
 -- centered
 
-## Stuck in the chasm?
+## Stuck in the Chasm?
 
 <img alt="Chrossing the chasm" src="img/chasm.svg" style="width:90%;">
 
